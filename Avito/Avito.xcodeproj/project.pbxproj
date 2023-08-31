@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F4ED2722A9E5DA900175A71 /* Market in Frameworks */ = {isa = PBXBuildFile; productRef = 0F4ED2712A9E5DA900175A71 /* Market */; };
 		875B58E82A9A1A3200833E69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875B58E72A9A1A3200833E69 /* AppDelegate.swift */; };
 		875B58EA2A9A1A3200833E69 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875B58E92A9A1A3200833E69 /* SceneDelegate.swift */; };
 		875B58EC2A9A1A3200833E69 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875B58EB2A9A1A3200833E69 /* ViewController.swift */; };
 		875B58F12A9A1A3300833E69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 875B58F02A9A1A3300833E69 /* Assets.xcassets */; };
-		875B59002A9A45A700833E69 /* Advertisements in Frameworks */ = {isa = PBXBuildFile; productRef = 875B58FF2A9A45A700833E69 /* Advertisements */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +29,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				875B59002A9A45A700833E69 /* Advertisements in Frameworks */,
+				0F4ED2722A9E5DA900175A71 /* Market in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 			);
 			name = Avito;
 			packageProductDependencies = (
-				875B58FF2A9A45A700833E69 /* Advertisements */,
+				0F4ED2712A9E5DA900175A71 /* Market */,
 			);
 			productName = Avito;
 			productReference = 875B58E42A9A1A3200833E69 /* Avito.app */;
@@ -282,6 +282,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +310,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -346,9 +348,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		875B58FF2A9A45A700833E69 /* Advertisements */ = {
+		0F4ED2712A9E5DA900175A71 /* Market */ = {
 			isa = XCSwiftPackageProductDependency;
-			productName = Advertisements;
+			productName = Market;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

@@ -1,5 +1,0 @@
-struct Advertisements {
-
-    public init() {
-    }
-}
